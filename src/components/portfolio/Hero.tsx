@@ -73,7 +73,7 @@ export function Hero() {
             <div className="rounded-[1.15rem] bg-black/40 p-4 font-mono text-[12.5px] leading-relaxed sm:text-sm">
               <div className="mb-4 flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full bg-destructive/70" />
-                <span className="h-2.5 w-2.5 rounded-full bg-chart-4/70 bg-amber-400/70" />
+                <span className="h-2.5 w-2.5 rounded-full bg-amber-400/70" />
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald/70" />
                 <span className="ml-3 text-[11px] text-muted-foreground">ritvik@portfolio: ~</span>
               </div>
