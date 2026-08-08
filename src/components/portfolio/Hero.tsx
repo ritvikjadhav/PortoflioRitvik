@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
-import { ArrowRight, Mail, Terminal } from "lucide-react";
+import { ArrowRight, FileText, Mail } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const lines = [
-  { text: "$ npx create-experience --stack modern", cls: "text-muted-foreground" },
-  { text: "✓ frontend    react · next · tailwind", cls: "text-cyan" },
-  { text: "✓ realtime    supabase · websockets", cls: "text-indigo" },
-  { text: "✓ deployed    vercel · edge runtime", cls: "text-emerald" },
-  { text: "→ status: building something great", cls: "text-foreground" },
+  { text: "$ npx init-engineer --stack backend", cls: "text-muted-foreground" },
+  { text: "✓ runtime     node.js · express · postgresql", cls: "text-cyan" },
+  { text: "✓ realtime    websockets · webrtc · redis", cls: "text-indigo" },
+  { text: "✓ languages   typescript · python · java · sql", cls: "text-emerald" },
+  { text: "→ status: open for backend & engineering roles", cls: "text-foreground" },
 ];
 
-const badges = ["React", "TypeScript", "Supabase", "Node.js", "Tailwind", "PostgreSQL"];
+const badges = ["TypeScript", "Node.js", "PostgreSQL", "Supabase", "WebSockets", "WebRTC", "Express"];
 
 export function Hero() {
   const [shown, setShown] = useState(0);
@@ -26,29 +26,22 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[1.15fr_1fr]">
         <div>
           <Reveal>
-            <span className="glass inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-xs font-medium text-muted-foreground">
-              <Terminal className="h-3.5 w-3.5 text-cyan" />
-              BSc IT Student · Full-Stack Developer
-            </span>
-          </Reveal>
-
-          <Reveal delay={90}>
-            <h1 className="mt-6 text-4xl leading-[1.08] font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="text-4xl leading-[1.08] font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               <span className="text-foreground">Hi, I&apos;m Ritvik Jadhav</span>
               <span className="text-gradient mt-2 block">
-                Crafting Scalable Web Experiences &amp; Immersive Interfaces.
+                Crafting Low-Latency Backend Systems &amp; Real-Time Interfaces.
               </span>
             </h1>
           </Reveal>
 
-          <Reveal delay={180}>
+          <Reveal delay={90}>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              BSc IT student and passionate full-stack web developer — obsessed with clean UI/UX,
-              real-time systems and interfaces that feel effortless.
+              Software engineer building scalable backend architectures, real-time systems, and
+              high-performance web applications with clean, production-ready code.
             </p>
           </Reveal>
 
-          <Reveal delay={260}>
+          <Reveal delay={180}>
             <div className="mt-9 flex flex-wrap gap-3">
               <a
                 href="#projects"
@@ -57,6 +50,17 @@ export function Hero() {
                 Explore Projects
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
+
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold text-foreground transition-all hover:border-cyan/50"
+              >
+                <FileText className="h-4 w-4 text-cyan" />
+                Download CV
+              </a>
+
               <a
                 href="#contact"
                 className="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold text-foreground transition-all hover:border-indigo/50"
