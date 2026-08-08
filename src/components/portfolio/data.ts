@@ -22,12 +22,13 @@ export const projects: Project[] = [
     accent: "cyan",
   },
   {
-    title: "Pulse Chat",
-    tagline: "WhatsApp-Style Real-Time Messaging",
+    title: "TypeForge",
+    tagline: "Forge your Speed, Master Every Keystroke",
     description:
-      "Full-stack messaging platform featuring database persistence, real-time WebSocket sync, presence indicators and optimistic UI updates for instant feedback.",
-    stack: ["Supabase", "PostgreSQL", "React", "WebSockets"],
-    categories: ["Full-Stack", "Real-Time"],
+      "A modern typing platform designed to test and improve typing speed.",
+    stack: ["HTMl5", "CSS", "JavaScript"],
+    categories: ["Real-Time", "Productivity", "Performance Tracking"],
+    demo: "https://ritvikjadhav.github.io/TypeForge/",
     repo: "https://github.com/ritvikjadhav",
     accent: "indigo",
   },
