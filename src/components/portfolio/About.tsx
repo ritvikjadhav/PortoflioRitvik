@@ -3,8 +3,8 @@ import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
 const stats = [
-  { label: "Projects Built", value: 12, suffix: "+" },
-  { label: "Technologies Mastered", value: 16, suffix: "" },
+  { label: "Projects Built", value: 4, suffix: "+" },
+  { label: "Technologies Mastered", value: 7, suffix: "" },
   { label: "Code Commits", value: 1400, suffix: "+" },
   { label: "Cups of Coffee", value: 890, suffix: "" },
 ];
