@@ -54,31 +54,31 @@ export const skillGroups = {
 
 export const timeline = [
   {
-    period: "2024 — Present",
+    period: "2024 — 2027",
     title: "BSc Information Technology",
-    org: "University Coursework",
+    org: "Abhinav College • University of Mumbai",
     detail:
-      "Studying data structures, networking, DBMS and software engineering while shipping production-grade side projects in parallel.",
+      "Mastering core computer science foundations including Data Structures & Algorithms, Database Management Systems (DBMS), Operating Systems, and Computer Networks.",
+  },
+  {
+    period: "2026",
+    title: "Decentralized Mesh Networking",
+    org: "Systems & Networking Research",
+    detail:
+      "Prototyping serverless peer-to-peer messaging protocols using WebRTC data channels and local IndexedDB state synchronization for resilient offline communication.",
+  },
+  {
+    period: "2025",
+    title: "Real-Time Systems Engineering",
+    org: "Independent Deep Dive",
+    detail:
+      "Engineered a low-latency chat engine utilizing Supabase WebSocket channels, implementing Row-Level Security (RLS) policies and optimistic client-side updates.",
   },
   {
     period: "2025",
     title: "Emerial — Luxury Commerce Build",
-    org: "Independent Project",
+    org: "Full-Stack Project",
     detail:
-      "Designed and deployed a high-end storefront experience with a focus on typography, motion and conversion-first layout.",
-  },
-  {
-    period: "2025",
-    title: "Real-Time Systems Deep Dive",
-    org: "Self-Taught Engineering",
-    detail:
-      "Built a WhatsApp-style chat platform on Supabase realtime channels with optimistic updates and row-level security.",
-  },
-  {
-    period: "2026",
-    title: "Decentralized Networking Research",
-    org: "Academic + Personal",
-    detail:
-      "Prototyping browser-based peer-to-peer mesh messaging inspired by offline-first networking frameworks.",
+      "Architected and deployed a production-grade luxury storefront focused on modern typography, fluid motion, responsive layouts, and conversion-first user flows.",
   },
 ];
