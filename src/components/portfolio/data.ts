@@ -22,34 +22,24 @@ export const projects: Project[] = [
     accent: "cyan",
   },
   {
-    title: "TypeForge",
+    title: "VelType",
     tagline: "Forge your Speed, Master Every Keystroke",
     description:
       "A modern typing platform designed to test and improve typing speed.",
     stack: ["HTMl5", "CSS", "JavaScript"],
     categories: ["Real-Time", "Productivity", "Performance Tracking"],
-    demo: "https://ritvikjadhav.github.io/TypeForge/",
+    demo: "https://veltype.vercel.app",
     repo: "https://github.com/ritvikjadhav",
     accent: "indigo",
-  },
-  {
-    title: "Mesh",
-    tagline: "Decentralized P2P Mesh Chat",
-    description:
-      "A local browser-based peer-to-peer communication concept inspired by offline mesh networking frameworks — no servers, just direct encrypted peer links.",
-    stack: ["WebRTC", "TypeScript", "IndexedDB"],
-    categories: ["Real-Time"],
-    repo: "https://github.com/ritvikjadhav",
-    accent: "emerald",
   },
 ];
 
 export const filters = ["All", "Full-Stack", "E-Commerce & UI", "Real-Time"] as const;
 
 export const skillGroups = {
-  Frontend: ["React", "Next.js", "Tailwind CSS", "TypeScript", "HTML / CSS"],
-  "Backend & Realtime": ["Node.js", "Express", "Supabase", "PostgreSQL", "WebSockets"],
-  "Tools & DevOps": ["Git", "GitHub", "Docker", "VS Code", "Vercel", "Figma"],
+  Frontend: ["React", "Tailwind CSS", "TypeScript", "HTML / CSS"],
+  "Backend & Realtime": ["Supabase", "PostgreSQL", "WebSockets", "MongoDB", "SQL"],
+  "Tools & DevOps": ["Git", "GitHub", "Docker", "VS Code", "Vercel"],
 } as const;
 
 export const timeline = [
@@ -60,17 +50,11 @@ export const timeline = [
     detail:
       "Mastering core computer science foundations including Data Structures & Algorithms, Database Management Systems (DBMS), Operating Systems, and Computer Networks.",
   },
+  
   {
     period: "2026",
-    title: "Decentralized Mesh Networking",
-    org: "Systems & Networking Research",
-    detail:
-      "Prototyping serverless peer-to-peer messaging protocols using WebRTC data channels and local IndexedDB state synchronization for resilient offline communication.",
-  },
-  {
-    period: "2025",
-    title: "Real-Time Systems Engineering",
-    org: "Independent Deep Dive",
+    title: "Real-Time Typing Website Build",
+    org: "Frontend based Local Storage Project",
     detail:
       "Engineered a low-latency chat engine utilizing Supabase WebSocket channels, implementing Row-Level Security (RLS) policies and optimistic client-side updates.",
   },
